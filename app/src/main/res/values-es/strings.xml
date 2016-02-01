@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">tasker_library</string>
+
+    <!-- Shared -->
+    <string name="login_button">Log In</string>
+    <string name="register_button">Register</string>
+
+    <!-- Login -->
+    <string name="email_label">Correo electrónico</string>
+    <string name="password_label">Contraseña</string>
+    <string name="forgot_password">Olvide mi contraseña</string>
+
+    <!-- Loading -->
+    <string name="loading_title">Cargando...</string>
+    <string name="loading_content">Cargando...</string>
+
+    <!-- Support -->
+    <string name="support_title">Soporte</string>
+    <string name="support_description">¿Tienes alguna pregunta o sugerencia? ¡No te preocupes! En Tasker estamos para apoyarte.</string>
+    <string name="support_action_phone">Asistencia Telefónica</string>
+    <string name="support_action_email">Escríbenos un correo</string>
+
+    <!-- About -->
+    <string name="about_title">Acerca</string>
+    <string name="about_trademark"><![CDATA[<font color="#ffffff">Tasker</font> y los logos de <font color="#ffffff">Tasker</font> son marcas registradas de <font color="#ffffff">Grupo Raido SAPI de CV</font>. Todos los derechos resevados.]]></string>
+    <string name="about_licenses"><![CDATA[Tasker para Android está construido utilizando software de código abierto: <a href="webViewActivity://www.tasker.mx/licenses/android?footer=false"><font color="#ffffff">licencias</font></a>.]]></string>
+    <string name="about_terms"><![CDATA[<a href="webViewActivity://www.tasker.mx/terms?footer=false">Términos de Servicio</a>]]></string>
+    <string name="about_privacy"><![CDATA[<a href="webViewActivity://www.tasker.mx/privacy?footer=false">Política de privacidad</a>]]></string>
+
+    <!-- Maps -->
+    <string name="maps_time">Llegada en %1$s min</string>
+    <string name="maps_end">¡El Tasker ha llegado!</string>
+    <string name="maps_there">¡Llegó a su destino!</string>
+
+    <!-- Jobs -->
+    <string name="job_description">Descripción</string>
+    <string name="job_exterior_number">Exterior</string>
+    <string name="job_interior_number">Interior</string>
+
+    <!-- Actions -->
+    <string name="action_register">Registrarse</string>
+    <string name="action_next">Siguiente</string>
+    <string name="action_done">Terminar</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="action_request">Solicitar</string>
+    <string name="action_add">Añadir</string>
+    <string name="action_accept">ACEPTAR</string>
+    <string name="action_reject">RECHAZAR</string>
+    <string name="action_cancel">CANCELAR</string>
+    <string name="action_available">Está usted disponible</string>
+    <string name="action_not_available">No está usted disponible</string>
+    <string name="action_change">Cambiar</string>
+    <string name="action_quote">Cotizar</string>
+    <string name="action_send">ENVIAR</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_destroy">Borrar</string>
+    <string name="action_work">Ya llegue</string>
+    <string name="action_maps">Abrir en mapas</string>
+    <string name="action_call">Llamar al cliente</string>
+    <string name="action_end_work">Finalizar servicio</string>
+    <string name="action_complaint">Tengo una queja</string>
+    <string name="action_search_tasker">Buscar Tasker</string>
+    <string name="action_back">Atrás</string>
+    <string name="action_enter">Aceptar</string>
+    <string name="action_skip">Omitir</string>
+
+    <!-- Toast -->
+    <string name="toast_requesting">La asignación del tasker disponible más cercano puede tomar algunos minutos, por favor espere.</string>
+    <string name="toast_quoting">Espere a que el Tasker le mande la cotización del servicio, por favor.</string>
+    <string name="toast_quote_acceptance">Espere a que el cliente acepte la cotización, por favor.</string>
+    <string name="toast_working">Espere a que el Tasker termine de realizar el servicio, por favor.</string>
+    <string name="toast_wait">Esperando a que un cliente solicite sus servicios.</string>
+
+    <!-- Failed connection -->
+    <string name="failed_connection_title">Lamentamos el retraso</string>
+    <string name="failed_connection_description">Experimentamos algunos problemas con las conexciones, en breve estarásde nuevo en movimiento.</string>
+    <string name="failed_connection_action">Inténtalo de nuevo</string>
+
+    <!-- Numbers -->
+    <string name="number_zero">$0.00</string>
+
+    <!-- Quote -->
+    <string name="quote_title">Cotización</string>
+    <string name="quote_labor">Mano de obra</string>
+    <string name="quote_materials">Materiales</string>
+    <string name="quote_total">Monto Total</string>
+    <string name="quote_accept_title">¿Estás seguro que deseas aceptar el servicio?</string>
+    <string name="quote_accept_content">En caso de hacerlo se realizará un cargo automático por $180.00 que corresponde a la tarifa mínima.</string>
+    <string name="quote_cancel_title">¿Estás seguro que deseas cancelar el servicio?</string>
+    <string name="quote_cancel_content">En caso de hacerlo se realizará un cargo automático por $180.00 que corresponde a la tarifa mínima.</string>
+    <string name="quote_rejected_title">¡El servicio fue cancelado!</string>
+    <string name="quote_rejected_content">El cliente ha cancelado el servicio por lo que no se puede continuar con el servicio.</string>
+    <string name="quote_rating_title">¡SERVICIO FINALIZADO!</string>
+    <string name="quote_rating_content">Calífica al Tasker</string>
+    <string name="quote_promotion">Promoción</string>
+</resources>

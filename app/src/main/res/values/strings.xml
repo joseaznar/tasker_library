@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">tasker_library</string>
+
+    <!-- Shared -->
+    <string name="login_button">Log In</string>
+    <string name="register_button">Register</string>
+
+    <!-- Login -->
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="forgot_password">Forgot password</string>
+
+    <!-- Loading -->
+    <string name="loading_title">Loading...</string>
+    <string name="loading_content">Loading...</string>
+
+    <!-- Support -->
+    <string name="support_title">Support</string>
+    <string name="support_description">Do you have any questions or suggestions? Don\'t worry! In Tasker we are ready to help you.</string>
+    <string name="support_action_phone">Telephone Support</string>
+    <string name="support_action_email">Send us an email</string>
+
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="about_trademark"><![CDATA[<font color="#ffffff">Tasker</font> and the <font color="#ffffff">Tasker</font> logos are trademarks of <font color="#ffffff">Grupo Raido SAPI de CV</font>. All rights reserved]]></string>
+    <string name="about_licenses"><![CDATA[Tasker for Android is built using open source software: <a href="webViewActivity://www.tasker.mx/licenses/android?footer=false"><font color="#ffffff">licenses</font></a>.]]></string>
+    <string name="about_terms"><![CDATA[<a href="webViewActivity://www.tasker.mx/terms?footer=false">Terms of service</a>]]></string>
+    <string name="about_privacy"><![CDATA[<a href="webViewActivity://www.tasker.mx/privacy?footer=false">Privacy policy</a>]]></string>
+
+    <!-- Maps -->
+    <string name="maps_time">Arrival in %1$s min</string>
+    <string name="maps_end">The Tasker has arrived!</string>
+    <string name="maps_there">You have arrived!</string>
+
+
+    <!-- Jobs -->
+    <string name="job_description">Description</string>
+    <string name="job_exterior_number">Exterior</string>
+    <string name="job_interior_number">Interior</string>
+
+    <!-- Actions -->
+    <string name="action_register">Register</string>
+    <string name="action_next">Next</string>
+    <string name="action_done">Done</string>
+    <string name="action_logout">Log out</string>
+    <string name="action_request">Request</string>
+    <string name="action_add">Add</string>
+    <string name="action_accept">ACCEPT</string>
+    <string name="action_reject">REJECT</string>
+    <string name="action_cancel">CANCEL</string>
+    <string name="action_available">You are available</string>
+    <string name="action_not_available">You are not available</string>
+    <string name="action_change">Change</string>
+    <string name="action_quote">Quote</string>
+    <string name="action_send">SEND</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_destroy">Delete</string>
+    <string name="action_work">I\'m there</string>
+    <string name="action_maps">Open in maps</string>
+    <string name="action_call">Call client</string>
+    <string name="action_end_work">Finish service</string>
+    <string name="action_complaint">I have a complaint</string>
+    <string name="action_search_tasker">Search Tasker</string>
+    <string name="action_back">Back</string>
+    <string name="action_enter">Enter</string>
+    <string name="action_skip">Skip</string>
+
+    <!-- Toast -->
+    <string name="toast_requesting">The search for the nearest available tasker can take several minutes, please wait.</string>
+    <string name="toast_quoting">Please wait for the Tasker to send a quote for the service.</string>
+    <string name="toast_quote_acceptance">Please wait for the client to accept the quote.</string>
+    <string name="toast_working">Please wait for the Tasker to end the service</string>
+    <string name="toast_wait">Waiting for a client to request your services.</string>
+
+    <!-- Failed connection -->
+    <string name="failed_connection_title">Sorry for the delay</string>
+    <string name="failed_connection_description">We had some trouble connecting, but should have you moving shortly.</string>
+    <string name="failed_connection_action">Try again</string>
+</resources>

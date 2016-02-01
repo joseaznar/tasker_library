@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    GRUPO RAIDO CONFIDENTIAL
+    __________________
+
+      [2015] - [2015] Grupo Raido SAPI de CV
+      All Rights Reserved.
+
+    NOTICE: All information contained herein is, and remains
+    the property of Grupo Raido SAPI de CV and its suppliers,
+    if any. The intellectual and technical concepts contained
+    herein are proprietary to Grupo Raido SAPI de CV and its
+    suppliers and may be covered by México and Foreign Patents,
+    patents in process, and are protected by trade secret or
+    copyright law. Dissemination of this information or
+    reproduction of this material is strictly forbidden unless
+    prior written permission is obtained from Grupo Raido SAPI
+    de CV.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:paddingLeft="48dp"
+    android:paddingRight="100dp"
+    android:paddingTop="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="Tasker for Android"
+        android:textColor="@color/card"
+        android:textSize="34sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Version"
+        android:textColor="#77FFFFFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/about_versionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.5.1"
+        android:textColor="@color/card"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/about_trademarkTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="#88FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/about_licensesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="#88FFFFFF"
+        android:textColorLink="@color/card"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/about_termsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/about_terms"
+        android:textColor="#88FFFFFF"
+        android:textColorLink="@color/card"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/about_privacyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/about_privacy"
+        android:textColor="@color/card"
+        android:textColorLink="@color/card"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

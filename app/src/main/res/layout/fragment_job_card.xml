@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    GRUPO RAIDO CONFIDENTIAL
+    __________________
+
+      [2015] - [2015] Grupo Raido SAPI de CV
+      All Rights Reserved.
+
+    NOTICE: All information contained herein is, and remains
+    the property of Grupo Raido SAPI de CV and its suppliers,
+    if any. The intellectual and technical concepts contained
+    herein are proprietary to Grupo Raido SAPI de CV and its
+    suppliers and may be covered by México and Foreign Patents,
+    patents in process, and are protected by trade secret or
+    copyright law. Dissemination of this information or
+    reproduction of this material is strictly forbidden unless
+    prior written permission is obtained from Grupo Raido SAPI
+    de CV.
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/card"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/job_card_locationImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bottom_border"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/job_card_jobCategoryTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/normal"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/job_card_jobTypeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/normal"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/job_card_stateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/label_info"
+            android:padding="5dp"
+            android:textColor="@color/card"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/job_card_jobDescriptionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_border"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/job_description"
+            android:textColor="@color/accent"
+            android:textSize="11sp"/>
+
+        <TextView
+            android:id="@+id/job_card_jobDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:text="asdfadsf asfd"
+            android:textColor="@color/normal"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/job_card_addressTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/normal"
+            android:textSize="14sp"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/job_card_exteriorNumberLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/job_exterior_number"
+                android:textColor="@color/accent"
+                android:textSize="11sp"/>
+
+            <TextView
+                android:id="@+id/job_card_exteriorNumberTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/normal"
+                android:textSize="16sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/job_card_interiorNumberLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/job_interior_number"
+                android:textColor="@color/accent"
+                android:textSize="11sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/job_card_interiorNumberTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/normal"
+                android:textSize="16sp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

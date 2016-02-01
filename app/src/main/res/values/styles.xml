@@ -1,0 +1,58 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/main</item>
+        <item name="colorPrimaryDark">@color/main_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+    </style>
+
+    <style name="LightInCircularProgressDrawable" parent="Material.Drawable.CircularProgress">
+        <item name="cpd_strokeColor">@color/main</item>
+        <item name="cpd_inAnimDuration">800</item>
+        <item name="cpd_inStepPercent">0.5</item>
+        <item name="cpd_inStepColors">@array/progress_colors_light</item>
+        <item name="cpd_outAnimDuration">400</item>
+    </style>
+
+    <style name="LightCircularProgressDrawable" parent="Material.Drawable.CircularProgress">
+        <item name="cpd_strokeColor">@color/main</item>
+    </style>
+
+    <style name="LightInColorCircularProgressDrawable" parent="LightInCircularProgressDrawable">
+        <item name="cpd_strokeColors">@array/progress_colors_light</item>
+    </style>
+
+    <style name="LightCircularProgressView">
+        <item name="pv_autostart">true</item>
+        <item name="pv_circular">true</item>
+        <item name="pv_progressStyle">@style/LightCircularProgressDrawable</item>
+        <item name="pv_progressMode">indeterminate</item>
+    </style>
+
+    <style name="LightInColorCircularProgressView" parent="LightCircularProgressView">
+        <item name="pv_progressStyle">@style/LightInColorCircularProgressDrawable</item>
+    </style>
+
+
+    <style name="SimpleDialogLight" parent="Material.App.Dialog.Simple.Light">
+        <item name="di_backgroundColor">@color/card</item>
+        <item name="di_inAnimation">@anim/scale_in</item>
+        <item name="di_outAnimation">@anim/scale_out</item>
+    </style>
+
+
+    <style name="FloatingButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:colorBackground">#bebebe</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:background">@drawable/floating_button</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+</resources>
